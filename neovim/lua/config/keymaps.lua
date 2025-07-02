@@ -7,3 +7,4 @@ vim.keymap.set("n", "<leader><leader>", function()
 end, { desc = "Flash jump" })
 
 
+vim.keymap.set({ "i", "x", "n", "s" }, "<D-s>", "<cmd>w<cr><esc>", { desc = "Save file" })
