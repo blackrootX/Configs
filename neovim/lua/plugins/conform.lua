@@ -4,18 +4,13 @@ return {
     opts = {
       formatters_by_ft = {
         lua = { "stylua" },
-        javascript = { "biome" },
-        typescript = { "biome" },
-        javascriptreact = { "biome" },
-        typescriptreact = { "biome" },
-        -- Add other filetypes as needed
+        javascript = { "biome-check" },
+        typescript = { "biome-check" },
+        javascriptreact = { "biome-check" },
+        typescriptreact = { "biome-check" },
+        -- 其他文件类型按需添加
       },
-      formatters = {
-        biome = {
-          -- Optional: Custom args (e.g., use a specific config file)
-          prepend_args = {   },
-        },
-      },
+      
     },
   },
 }
